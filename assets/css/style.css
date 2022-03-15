@@ -183,8 +183,8 @@ img{
 	position: relative;
 }
 .contact_item {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(11.78%, rgba(86, 86, 86, 0.65)), color-stop(36.24%, #000000));
 	background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(86, 86, 86, 0.65) 11.78%, #000000 36.24%);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(11.78%, rgba(86, 86, 86, 0.65)), color-stop(36.24%, #000000));
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(86, 86, 86, 0.65) 11.78%, #000000 36.24%);
 	width: 145px;
 	position: absolute;
@@ -277,8 +277,8 @@ img{
 .title h1::after {
 	position: absolute;
 	content: "";
-  background: -webkit-gradient(linear, left top, right top, color-stop(4.12%, #F7941E), color-stop(74.61%, #FBAE52), color-stop(87.42%, #EE952C), color-stop(102.46%, #212121)), #F7941E;
   background: -o-linear-gradient(left, #F7941E 4.12%, #FBAE52 74.61%, #EE952C 87.42%, #212121 102.46%), #F7941E;
+  background: -webkit-gradient(linear, left top, right top, color-stop(4.12%, #F7941E), color-stop(74.61%, #FBAE52), color-stop(87.42%, #EE952C), color-stop(102.46%, #212121)), #F7941E;
   background: linear-gradient(90deg, #F7941E 4.12%, #FBAE52 74.61%, #EE952C 87.42%, #212121 102.46%), #F7941E;
 	width: 155%;
 	height: 37.06px;
@@ -548,3 +548,45 @@ img{
     margin-bottom: -96px;
     margin-right: 81px;
   }
+
+.choose_item ul li {
+    font-family: 'Amiko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .pentesting_content p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.nav-icon {
+	display: none;
+	float: right;
+	text-decoration: none !important;
+}
+.scan_button_class{
+  position: relative;
+}
+.scan_button p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #007445;
+	width: 318px;
+	padding: 15px;
+}
+.scan_button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

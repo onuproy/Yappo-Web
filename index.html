@@ -18,12 +18,11 @@
 	<!--jquery css-->
 	<script src="assets/css/jquery-ui.min.css"></script>
 	<!-- Google Fonts  -->
-	<link
-		href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
+	<link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/unx0xpg.css">
 	<!--style css-->
 	<link rel="stylesheet" href="assets/css/style.css">
-
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
@@ -36,25 +35,31 @@
 		<div class="container">
 			<div class="row">
 				<!-- Logo  -->
-				<div class="col-md-2">
+				<div class="col-lg-2">
 					<div class="logo">
 						<a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo"></a>
+						<div class="m_icon">
+							<a href="#" class="nav-icon"><i class="fa fa-bars"></i></a>
+						</div>
 					</div>
 				</div>
 				<!-- MEnu  -->
-				<div class="col-md-8">
-					<div class="menu">
-						<ul>
-							<li><a class="nev-active" href="#">Pentest as-a-Service</a></li>
-							<li><a href="#Assessments">Assessments</a></li>
-							<li><a href="#Compliance">Compliance</a></li>
-							<li><a href="#aboutUs_area">About Us</a></li>
-						</ul>
+				<div class="col-lg-8">
+					<div class="mobile_menu canvas-menu">
+						<a href="#" class="nav-icon"><span aria-hidden="true">×</span></a>
+						<div class="menu">
+							<ul>
+								<li><a class="nev-active" href="#">Pentest as-a-Service</a></li>
+								<li><a href="#Assessments">Assessments</a></li>
+								<li><a href="#Compliance">Compliance</a></li>
+								<li><a href="#aboutUs_area">About Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<!-- MEnu  -->
 				<!-- Contact  -->
-				<div class="col-md-2">
+				<div class="col-lg-2">
 					<div class="contact_item_area">
 						<div class="contact_item">
 							<div class="contact_img">
@@ -111,7 +116,7 @@
 	<section id="Assessments" class="our_olatform_section sp bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-xl-7 col-lg-6">
 					<div class="title">
 						<h1>OUR PLATFORM</h1>
 						<p>All vulnerability findings and reports are delivered via our <b>Pentest as a Service</b>
@@ -127,7 +132,7 @@
 							auditors.</p>
 					</div>
 				</div>
-				<div class="col-lg-5">
+				<div class="col-xl-5 col-lg-6">
 					<div class="real_time_items_area">
 						<!-- Single Item  -->
 						<div class="real_time_items">
@@ -221,7 +226,7 @@
 	<section class="cloud_based_section sp bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 scan_button_class">
 					<div class="title scan_class">
 						<h1>SURFACE SCAN</h1>
 						<p>Web applications have become the weakest part of IT security. Yappo built cloud-based
@@ -230,7 +235,10 @@
 							provides automated crawling and
 							testing of custom web applications to identify vulnerabilities. See your business as
 							attackers see it.</p>
-
+					</div>
+					<div class="scan_button">
+						<p>GET A FREE SURFACE SCAN <br>
+						AT INFO@YAPPO.NET</p>
 					</div>
 				</div>
 				<div class="col-md-7">
@@ -273,7 +281,7 @@
 			</div>
 			<div class="row full_item_relative">
 				<!-- Security Item  -->
-				<div class="col-lg-6 p_right">
+				<div class="col-md-6 p_right">
 					<div class="security_item">
 						<h4>Web Application Penetration Testing</h4>
 						<p>Yappo's team of web application penetration testers assess your web platform against OWASP
@@ -285,7 +293,7 @@
 				</div>
 				<!-- Security Item  -->
 				<!-- Security Item  -->
-				<div class="col-lg-6 p_left">
+				<div class="col-md-6 p_left">
 					<div class="security_item mt_1">
 						<h4>API Penetration Testing</h4>
 						<p>A poorly secured API can open security gaps for anything thatit is associated with. Let Yappo
@@ -297,7 +305,7 @@
 				</div>
 				<!-- Security Item  -->
 				<!-- Security Item  -->
-				<div class="col-lg-6 p_right">
+				<div class="col-md-6 p_right">
 					<div class="security_item mt_2">
 						<h4>Mobile Penetration Testing</h4>
 						<p>Relying on the OWASP Mobile Top 10 methodology that includes the most dangerous security
@@ -308,7 +316,7 @@
 				</div>
 				<!-- Security Item  -->
 				<!-- Security Item  -->
-				<div class="col-lg-6 p_left">
+				<div class="col-md-6 p_left">
 					<div class="security_item mt_2">
 						<h4>Network Penetration Testing</h4>
 						<p>Yappo's team attempt to break into your system to assess your level of security maturity.
@@ -490,17 +498,17 @@
 	<footer class="footer_area_section">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-2">
+				<div class="col-lg-2 col-md-2">
 					<div class="footer_logo">
 						<a href="imdex.html"><img src="assets/images/logo/footer.png" alt="logo"></a>
 					</div>
 				</div>
-				<div class="col-sm-7">
+				<div class="col-lg-7 col-md-4">
 					<div class="footer_link">
 						<a href="https://www.yappo.net/privacypolicy.html">Privacy Note</a>
 					</div>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-lg-3 col-md-6">
 					<div class="get_in_contact">
 						<h6>Get in touch</h6>
 						<a href="mailto:INFO@YAPPO.NET">INFO@YAPPO.NET</a>
